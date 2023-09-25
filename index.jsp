@@ -116,7 +116,6 @@
   <button id="get-quote">Get Quote</button>
 
   <div class="quote-actions">
-    <button class="share-button" id="share-X">Share on X</button>
     <button class="share-button" id="share-facebook">Share on Facebook</button>
     <button id="color-change">Change Background Color</button>
   </div>
@@ -163,12 +162,6 @@
   }
 
   document.getElementById("get-quote").addEventListener("click", getRandomQuote);
-
-  document.getElementById("share-X").addEventListener("click", function() {
-    const quote = document.getElementById("quote-text").textContent;
-    const XUrl = `https://X.com/intent/tweet}`;
-    window.open(XUrl, '_blank');
-  });
 
   document.getElementById("share-facebook").addEventListener("click", function() {
     const quote = document.getElementById("quote-text").textContent;
