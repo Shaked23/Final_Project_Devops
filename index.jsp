@@ -110,7 +110,7 @@
 </head>
 <body>
 <div id="quote-container">
-  <h1>Test Random Quote Generator</h1>
+  <h1>Random Quote Generator</h1>
   <p id="quote-text">Click the button to get a random quote.</p>
   <p id="quote-author"></p>
   <button id="get-quote">Get Quote</button>
