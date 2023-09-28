@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Test Random Quote Generator</title>
+  <title>Random Quote Generator</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style>
     body {
@@ -110,7 +110,7 @@
 </head>
 <body>
 <div id="quote-container">
-  <h1>Random Quote Generator</h1>
+  <h1>Test Random Quote Generator</h1>
   <p id="quote-text">Click the button to get a random quote.</p>
   <p id="quote-author"></p>
   <button id="get-quote">Get Quote</button>
